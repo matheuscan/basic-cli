@@ -1,5 +1,4 @@
 # Basic cli
 ### A project for learning the basics of clis in Node.js
 
-It has the main puropose to create and manipulate a PouchDB database through a group of commands and arguments attached to them.
-
+This ´project has as its main goal to learn some important concpts of NodeJS and JS in general, doing so by creating a CLI that can perform some simple tasks.  
