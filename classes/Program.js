@@ -1,7 +1,7 @@
 const Command = require('./Command')
 const Echo = require('./Echo')
 
-class Parser {
+class Program {
     #cmds = /echo|mkproject/i
     #pattern = new RegExp(this.#cmds)
     exec(){
@@ -17,4 +17,4 @@ class Parser {
         return args
     }
 }
-module.exports = Parser
+module.exports = Program

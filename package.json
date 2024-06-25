@@ -1,7 +1,7 @@
 {
   "name": "basic_cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic CLI program",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +18,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.2.0",
-    "pouchdb": "^8.0.0",
-    "yargs": "^17.6.2"
+    "pouchdb": "^8.0.0"
   }
 }

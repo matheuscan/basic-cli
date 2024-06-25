@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 const pkg = require('../package.json')
 const PouchDB = require('pouchdb')
-const Parser = require('../classes/Parser')
+const Program = require('../classes/Program')
 
 
 let p  = new Parser()
