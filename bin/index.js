@@ -4,5 +4,5 @@ const PouchDB = require('pouchdb')
 const Program = require('../classes/Program')
 
 
-let p  = new Parser()
+let p  = new Program()
 p.exec()

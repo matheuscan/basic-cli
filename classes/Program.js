@@ -1,13 +1,16 @@
 const Command = require('./Command')
 const Echo = require('./Echo')
 
+
 class Program {
     #cmds = /echo|mkproject/i
     #pattern = new RegExp(this.#cmds)
     exec(){
         let line = this.#cleanArgv(process.argv)
         let matches = this.#cmds.exec(line[0])
-        console.log(matches)
+        if (matches.input === "echo"){
+            Echo.echo(line)
+        }
     }
     #cleanArgv(list){
         let args = []

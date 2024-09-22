@@ -9,7 +9,11 @@ class Echo extends Command {
         )
         
     }
-    echo(str){
+    static echo(arr){
+        let str = "";
+        for(let i = 1; i<arr.length;i++){
+            str += arr[i] + " "
+        }
         console.log(str)
     }
     
