@@ -18,6 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pouchdb": "^8.0.0"
+    "cheerio": "^1.0.0",
+    "pouchdb": "^8.0.0",
+    "request": "^2.88.2"
   }
 }
